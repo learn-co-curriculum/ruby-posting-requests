@@ -161,7 +161,7 @@ And let's round it out by displaying the tips in our `index.html.erb` template:
 <h1>My Tips</h1>
 <ul>
 <% @results.each do |item| %>
-  <li><strong>><%= item["venue"]["name"] %></strong><br>
+  <li><strong><%= item["venue"]["name"] %></strong><br>
     <%= item["tip"]["text"] %></li>
 <% end %>
 </ul>
@@ -198,3 +198,5 @@ In Postman, there's a section under the URL entry that has a place where you can
 Pay close attention to the documentation of the API provider to make sure you're setting your request data in the right place!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-posting-requests' title='Posting to APIs'>Posting to APIs</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-posting-requests'>Posting to APIs </a> on Learn.co and start learning to code for free.</p>
